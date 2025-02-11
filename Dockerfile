@@ -1,4 +1,4 @@
-FROM python:3.9  # ou outra versão mais recente
+FROM python:3.9
 WORKDIR /html
 COPY index.html .
 EXPOSE 3000
